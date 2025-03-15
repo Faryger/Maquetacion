@@ -14,7 +14,7 @@ body {
     height: 100px;
     width: 100%;
     background-color: #f6f8fa;
-    border: 0.5px solid #939aa2;
+    border: solid 1px #d1d5da;
     color: #000000;
     display: flex;
     justify-content: space-between;
@@ -136,8 +136,8 @@ body {
 
 #repositorio{
     background-color: rgb(255, 255, 255);
-    border-right: solid 1px #939aa2;
-    /* width: 25%; */
+    border: solid 1px #d1d5da;
+    border-top: none;
     width: 450px;
     height: 900px;
 }
@@ -341,25 +341,222 @@ body {
 #homel{
     margin-top: 50px;
     font-size: 40px;
+    display: flex;
+    border: none;
 }
 
 #trendingrepo{
-    background-color: aqua;
-    border: solid 1px #000000;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #d1d5da;
+    border-radius: 6px;
     margin-top: 10px;
-    padding: 10px;
-    /* display: flex; */
+    padding: 25px;
+    height: 100%;
+    width: 880px;
 }
 
 #Foto5{
     width: 25px;
     margin-left: 5px;
-    border-radius: 60%;
-    border:solid 1px #dae0e6;
+    fill: #147931;
 }
 
 #titu{
     margin-left: 50px;
-    margin-top: -25px;
+    margin-top: -33px;
     margin-bottom:10px ;
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+#Fotom{
+    width: 25px;
+    margin-left: 5px;
+}
+
+#microsoft{
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom:10px ;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#descripcion{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+#circle{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#fav{
+    margin-left: 35px;
+    margin-top: -24px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#trendingrepotwo{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #d1d5da;
+    border-top: none;
+    border-radius: 6px;
+    padding: 25px;
+    height: 100%;
+    width: 880px;
+}
+
+#Foto6{
+    width: 25px;
+    margin-left: 5px;
+    fill: #147931;
+}
+
+#titutwo{
+    margin-left: 50px;
+    margin-top: -33px;
+    margin-bottom:10px ;
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}
+
+#Foto7{
+    width: 25px;
+    margin-left: 5px;
+}
+
+#microsofttwo{
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom:10px ;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#descripciontwo{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 8px;
+    display: flex;
+}
+
+#favtwo{
+    margin-left: 35px;
+    margin-top: -24px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#filter a {
+    color: rgb(41, 41, 41);
+    border: none;
+}
+
+#filter {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 780px;
+    margin-top: -40px;
+    background-color: #f6f8fa;
+    border: solid 1px #d1d1d1;
+}
+#filter:hover{
+    background-color: #e7e7e7;
+}
+#xixe{
+    width: 25px;
+    margin-left: 5px;
+}
+
+#changes{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #d1d5da;
+    border-radius: 10px;
+    margin-left: 1500px;
+    margin-top: -590px;
+    width: 450px;
+    height: 500px;
+}
+
+#latest{
+    padding-top: 30px;
+    padding-left: 32px;
+    font-size: 20px;
+    font-family: "Work Sans",sans-serif;
+    color: rgb(59, 59, 59);
+    font-weight: 600;   
+    margin-bottom: 15px;
+}
+.hours{
+    margin-left: 32px;
+    margin-top: 10px;
+    color: #828282;
+    font-weight: 20;
+}
+.actions{
+    margin-left: 32px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-weight: 10;   
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+.view{
+    margin-left: 32px;
+    color: #828282;
+    font-weight: 20;
+}
+#explore{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #d1d5da;
+    border-radius: 10px;
+    margin-left: 1500px;
+    margin-top: 15px;
+    width: 450px;
+    height: 190px;
+}
+.latestcha{
+    width: 25px;
+    margin-left: 32px;
+    border-radius: 50px;
+}
+#changesname{
+    margin-left:70px;
+    margin-top: -30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#circletwo{
+    margin-top: 10px;
+    margin-left: 32px;
+    width: 20px;
+}
+#favthree{
+    margin-left: 60px;
+    margin-top: -23px;
 }
